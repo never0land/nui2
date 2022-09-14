@@ -4,13 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --open",
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@types/node": "^18.7.17",
     "axios": "^0.27.2",
     "element-plus": "^2.2.16",
+    "path": "^0.12.7",
     "vue": "^3.2.37"
   },
   "devDependencies": {

@@ -8,6 +8,7 @@ const count = ref(0)
 
 <template>
   <h1>{{ msg }}</h1>
+  <img src="/src/assets/vue.svg" alt="1" />
   <div class="card">
     <button type="button" @click="count++">count is {{ count }}</button>
     <p>
@@ -22,6 +23,7 @@ const count = ref(0)
       >create-vue</a
     >, the official Vue + Vite starter
   </p>
+  <img src="/src/assets/vue.svg" />
   <p>
     Install
     <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>
